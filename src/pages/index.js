@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+ 
 const IndexPage = () => (
   <Layout>
     <Link to="/portfolio">Se min portfolio</Link>
@@ -16,4 +17,4 @@ const IndexPage = () => (
  */
 export const Head = () => <Seo title="Home" />
 
-export default IndexPage
+export default IndexPage;
