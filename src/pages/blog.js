@@ -33,12 +33,11 @@ const BlogPosts = ( props ) => {
 };
 export const query = graphql`
   query {
-    allContentfulLink {
+    allContentfulPage {
       edges {
         node {
-          name
-          href
-          text
+          title
+          template
         }
       }
     }
