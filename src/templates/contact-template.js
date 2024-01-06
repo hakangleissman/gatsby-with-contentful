@@ -4,7 +4,7 @@ const ContactTemplate = (contentfulPage) => {
     const links = useLinks();
     console.log(links);
     return (
-        <main>
+        <>
             <h2>{contentfulPage.title}</h2>
             <p>Contact template</p>
             <ul>
@@ -14,7 +14,7 @@ const ContactTemplate = (contentfulPage) => {
                     );
                 })}
             </ul>
-        </main>
+        </>
     );
 }
 
